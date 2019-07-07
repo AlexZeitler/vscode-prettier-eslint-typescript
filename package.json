@@ -11,6 +11,17 @@
   "repository": "git@github.com:AlexZeitler/vscode-prettier-eslint-typescript.git",
   "author": "Alexander Zeitler <alexander.zeitler@pdmlab.com>",
   "license": "MIT",
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "semi": false,
+    "useTabs": false,
+    "jsxBracketSameLine": false,
+    "proseWrap": "never"
+  },
   "devDependencies": {
     "@types/mocha": "^5.2.6",
     "@types/node": "^10.12.18",
